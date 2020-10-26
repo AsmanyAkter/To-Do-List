@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+	body{
+		background-color: #A1C9F1;
+	}
+
+	.center-column{
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #FFE4E1;
+
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+	h3 {text-align: center;
+		color: red;
+
+	    }
+	p {
+		color: darkblue;
+	}
+
+</style>
+<div class="center-column">
+
+<h3>Update Task</h3>
+<br>
+<p >If completed then mark completed and Submit.</p>
+
+ <p> Else just edit and Submit.</p>
+<form method="POST" action="">
+	{% csrf_token %}
+	{{form}}
+	<br><br>
+	<input type="submit" name="Update Task">
+	
+	
+</form>
+
+</div>
