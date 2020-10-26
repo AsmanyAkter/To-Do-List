@@ -1,7 +1,7 @@
-<center> To-Do List </center>
+#To-Do List
 This is a to-do list where you can list down your daily task.
 
-![Interface](pic1.png "Interface")
+![Interface](pic1.png=100x100 "Interface")
 
 You can update your task when you have done some part of it or completed it.
 
