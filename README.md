@@ -1,4 +1,4 @@
-# To-Do List
+# <center> To-Do List </center>
 This is a to-do list where you can list down your daily task.
 
 ![Interface](pic1.png "Interface")
